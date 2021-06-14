@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+  
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Shopping Crash</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+
+    <nav class="nav">
+      <div class="wrapper container">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" class="logopng"></a></div>
+        <ul class="nav-list">
+          <div class="top">
+            <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+          </div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li>
+            <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item"> Shop <span><i class="fas fa-chevron-down"></i></span></label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <header>Shopping now</header>
+                  <ul class="mega-links">
+                    <li><a href="#new_collection">Order now</a></li>
+                    <li><a href="#new_collection">View products</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Filters</header>
+                  <ul class="mega-links">
+                    <li><a href="#our_collection">Try now</a></li>
+                    <li><a href="#our_collection">2021 Trends</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Sales</header>
+                  <ul class="mega-links">
+                    <li><a href="#new_collection">Sales for now</a></li>
+                    <li><a href="#new_collection">Hit the bomb</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li>
+            <a href="" class="desktop-item">Vendors <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop1" />
+            <label for="showdrop1" class="mobile-item">Vendors <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu1">
+              <li><a href="">Vendor Store listings</a></li>
+              <li><a href="">Store Details</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop2" />
+            <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu2">
+              <li><a href="#footer">About</a></li>
+              <li><a href="#footer">Contact</a></li>
+              <li><a href="#footer">FAQ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product1.jpg" alt="" />
+              <div>
+                <p>Bambi Print Mini Backpack</p>
+                <span>Price: $500.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$50.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product2.png" alt="" />
+              <div>
+                <p>Bambi Print Mini Backpack</p>
+                <span>Price: $900.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$90.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/AJ1.png" alt="" />
+              <div>
+                <p>Air Jordan 1 Custom Green</p>
+                <span>Price: $150.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$60.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product4.jpg" alt="" />
+              <div>
+                <p>Bambi Print Mini Backpack</p>
+                <span>Price: $600.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$60.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product5.jpg" alt="" />
+              <div>
+                <p>Bambi Print Mini Backpack</p>
+                <span>Price: $600.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$60.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$200</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$50</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$250</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Proceed To Checkout</a>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+         
+        </div>
+        <div class="footer-center">
+          <h3>INFO</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+         
+        </div>
+     
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Kabanbay Batyra 60A/6
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            201281astanait.edu.kz
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +7-775-801-70-94
+          </div>
+          <div>
+            <a href="https://goo.gl/maps/Jqhd7SGL6axRw2TV7">
+              Find us on map 
+            <a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script> 
+
+    ScrollReveal().reveal('.section',{ delay: 500 });
+    
+      </script>
+    <script src="./js/products.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
